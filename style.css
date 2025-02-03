@@ -1,0 +1,225 @@
+@font-face {
+	font-family:open_sauce;
+	src : url(open-sauce.one-regular.ttf)
+}
+html{
+	font-family : open_sauce;
+}
+header
+{
+	text-align: center;
+	font-size: 20px;
+
+}
+
+
+img
+{
+	max-height: 400px;
+	max-width: 400px;
+	margin-top: 20px;
+}
+
+body
+{
+	background-image: url(images/degrade.png);
+	background-attachment: fixed;
+	color : white;
+	margin: 0;
+    padding: 0;
+}
+
+h1
+{
+	font-size:75px;
+
+}
+h2
+{
+    font-size : 55px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+hr
+{
+    max-width: 65%;
+    margin-right: 35%;
+}
+main
+{
+	margin-left: 25%;
+	margin-right: 20%;
+	font-size: 19px;
+	text-align: justify;
+	
+}
+
+
+nav {
+	font-size: 20px;
+	background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    position: sticky;
+    top: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.navs {
+    display: flex;
+    gap: 200px;
+    flex-grow: 1;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: transparent;
+    padding: 1px 15px 1px 15px;
+    border: 4px solid white;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    height: 40px;
+    margin-right: 60px;
+}
+
+.cv:hover {
+    background-color: transparent;
+    border: 4px solid #4d3e97;
+    color: #4d3e97;
+
+}
+.cv:hover .dlbut
+{
+	content: url(images/download_purple.png);
+}
+
+
+.presentation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prestext {
+    margin-top: 5%;
+    margin-right: 12%;
+}
+
+.prestext h1 {
+    margin-bottom: 10px;
+}
+
+.prestext p {
+    font-size: 30px;
+    margin-top: 0;
+    
+}
+
+.comp
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    gap: 7%;
+}
+.comp2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+.dlbut {
+	margin-bottom: 20px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.allgames
+{
+	display: flex;
+	justify-content: space-around;
+	gap : 20px;
+	width: 100%;
+}
+
+.games {
+    position: relative;
+    width: 38%;
+    height: 38%;
+}
+
+.imgeyes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgeyes:hover .overlay {
+    opacity: 1;
+}
+
+.closeeyes {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.content
+{
+    margin-bottom: 5%;
+    gap: 2%;
+    display: flex;
+    align-items: center;
+    a
+    {
+        text-decoration: none;
+    }
+    a:visited
+    {
+        color: white;
+    }
+    a:hover
+    {
+        font-size: 21px;
+    }
+}
