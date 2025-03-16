@@ -226,4 +226,7 @@ nav a:hover {
     {
         font-size: 21px;
     }
+    img{
+        margin-top: 20px;
+    }
 }
