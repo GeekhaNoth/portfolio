@@ -23,6 +23,7 @@ img
 body
 {
 	background-image: url(images/degrade.png);
+    background-size: cover;
 	background-attachment: fixed;
 	color : white;
 	margin: 0;
@@ -218,13 +219,14 @@ nav a:hover {
     {
         text-decoration: none;
     }
+    
+    a:hover
+    {
+        text-decoration: underline;
+    }
     a:visited
     {
         color: white;
-    }
-    a:hover
-    {
-        font-size: 21px;
     }
     img{
         margin-top: 20px;
