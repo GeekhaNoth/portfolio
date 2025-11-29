@@ -64,10 +64,11 @@ nav {
     align-items: center;
     width: 100%;
     color: white;
-    position: sticky;
+    position: fixed;
     top: 0;
     padding: 10px 20px;
     box-sizing: border-box;
+    z-index: 10;
     img{
         margin-top: 20px;
     }
@@ -108,6 +109,13 @@ nav a:hover {
     height: 40px;
     margin-right: 60px;
 }
+.dlbut, .itch, .github {
+    margin-bottom: 20px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    vertical-align: middle;
+}
 
 .cv:hover {
     background-color: transparent;
@@ -118,6 +126,15 @@ nav a:hover {
 .cv:hover .dlbut
 {
 	content: url(images/download_purple.png);
+}
+.cv:hover .itch
+{
+    content: url(images/itch-io_purple.png);
+}
+
+.cv:hover .github
+{
+    content: url(images/logo_github_purple.png);
 }
 
 
@@ -155,13 +172,7 @@ nav a:hover {
     align-items: center;
     text-align: justify;
 }
-.dlbut {
-	margin-bottom: 20px;
-    width: 20px;
-    height: 20px;
-    object-fit: contain;
-    vertical-align: middle;
-}
+
 
 .allgames
 {

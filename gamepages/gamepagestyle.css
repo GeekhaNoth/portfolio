@@ -1,0 +1,211 @@
+@font-face {
+	font-family:open_sauce;
+	src : url(../open-sauce.one-regular.ttf)
+}
+html{
+	font-family : open_sauce;
+}
+header
+{
+	text-align: center;
+	font-size: 20px;
+
+}
+
+
+img
+{
+	max-height: 400px;
+	max-width: 400px;
+	
+}
+.another
+{
+    max-height: 1176px;
+    max-width: 768px;
+}
+
+body
+{
+	background-image: url(../images/degrade.png);
+    background-size: cover;
+	background-attachment: fixed;
+	color : white;
+	margin: 0;
+    padding: 0;
+}
+
+h1
+{
+	font-size:75px;
+    text-align: center;
+
+}
+h2
+{
+    font-size : 55px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+main
+{
+	font-size: 19px;
+	text-align: justify;
+	
+}
+nav {
+    font-size: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    position: fixed;
+    top: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    img{
+        margin-top: 20px;
+    }
+}
+
+.navs {
+    display: flex;
+    gap: 200px;
+    flex-grow: 1;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: transparent;
+    padding: 1px 15px 1px 15px;
+    border: 4px solid white;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    height: 40px;
+    margin-right: 60px;
+}
+
+.cv:hover {
+    background-color: transparent;
+    border: 4px solid #4d3e97;
+    color: #4d3e97;
+
+}
+.cv:hover .dlbut
+{
+	content: url(../images/download_purple.png);
+}
+
+.dlbut {
+	margin-bottom: 20px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+.gamepage
+{
+    display: flex;
+    justify-content: space-around;
+    h2
+    {
+        text-align: center;
+    }
+}
+.content
+{
+    margin-bottom: 5%;
+    gap: 2%;
+    display: flex;
+    align-items: center;
+    a:visited
+    {
+        color: white;
+    }
+    a:hover
+    {
+        text-decoration: underline;
+    }
+    a
+    {
+        text-decoration: none;
+    }
+    img{
+        margin-top: 20px;
+    }
+}
+.link
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        margin-top: 20px;
+    }
+}
+.real {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: transparent;
+    padding: 1px 15px 1px 15px;
+    border: 4px solid white;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    height: 40px;
+    margin-right: 60px;
+}
+
+.real:hover {
+    background-color: transparent;
+    border: 4px solid #4d3e97;
+    color: #4d3e97;
+
+}
+.real:hover .itch, .cv:hover .itch
+{
+    content: url(../images/itch-io_purple.png);
+}
+
+.real:hover .github, .cv:hover .github
+{
+    content: url(../images/logo_github_purple.png);
+}
+
+.itch, .github {
+    margin-bottom: 20px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.end
+{
+    margin-left: 25%;
+    margin-right: 39.3%;
+}
